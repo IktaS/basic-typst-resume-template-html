@@ -111,8 +111,8 @@
   bottom-right: "",
 ) = {
   [
-    #top-left #h(1fr) #top-right \
-    #bottom-left #h(1fr) #bottom-right
+    #top-left #h(1fr) #html.elem("span")[] #top-right \
+    #bottom-left #h(1fr) #html.elem("span")[] #bottom-right
   ]
 }
 
@@ -122,7 +122,7 @@
   right: "",
 ) = {
   [
-    #left #h(1fr) #right
+    #left #h(1fr) #html.elem("span")[] #right
   ]
 }
 
@@ -212,7 +212,7 @@
     #if url != "" {
       [ (#link("https://" + url)[#url])]
     }
-    #h(1fr) #date
+    #h(1fr) #html.elem("span")[] #date
   ]
 }
 
