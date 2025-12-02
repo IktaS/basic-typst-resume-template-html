@@ -1,8 +1,8 @@
 # for a description of available keys, see https://github.com/typst/packages/?tab=readme-ov-file#package-format
 
 [package]
-name = "basic-resume"
-version = "0.2.9"
+name = "basic-resume-html"
+version = "1.0.0"
 entrypoint = "src/lib.typ"
 authors = ["Stephen Xu <https://stuxf.dev>"]
 license = "Unlicense"
